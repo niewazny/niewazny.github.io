@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-11-14T11:18:20.775Z</updated>
+  <updated>2022-11-14T12:09:19.736Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个简单的Java程序、注释</title>
+    <link href="http://example.com/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Java%E7%A8%8B%E5%BA%8F%E3%80%81%E6%B3%A8%E9%87%8A/"/>
+    <id>http://example.com/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Java%E7%A8%8B%E5%BA%8F%E3%80%81%E6%B3%A8%E9%87%8A/</id>
+    <published>2022-11-14T12:02:08.000Z</published>
+    <updated>2022-11-14T12:09:19.736Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="HelloWorld-第一个Java程序"><a href="#HelloWorld-第一个Java程序" class="headerlink" title="HelloWorld! 第一个Java程序"></a>HelloWorld! 第一个Java程序</h1><p>下面是经典的HelloWorld程序</p><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">public class HelloWorld&#123;    public static void main(String[] args)&#123;        System.out.println(&quot;Hello,world!&quot;);    &#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>下面逐一地查看这段代码:<br><code>public</code>：称为访问修饰符,这些修饰符用于控制程序的其他部分对这段代码的访问级别.<br><code>class</code>：称为类,是一个程序的基本单位,可以看作程序逻辑的一个容器,定义了应用程序的行为.<br><code>HelloWorld</code>:为<code>class</code>后面紧跟着的<em>类名</em>[^1]<br><code>&#123;&#125;</code>:大括号划分了程序的各各部分.Java中任何方法的代码都必须以”{“开始,用”}”结束.<br><code>static void</code>:暂不作说明.<br><code>main()</code>:每个Java程序都必须有一个main方法<br><code>System.out.println()</code>:我们使用System.out对象并调用了它的println方法.注意,点号(.)用于调用方法.Java中使用的通用语法是:<code>object.method(parameters)</code></p><h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>Java中有三种注释如下：</p><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">&#x2F;** * 这是第一种 * 注释方法 *&#x2F;&#x2F;*这是第二种注释方法*&#x2F;public class HelloWorld&#123;    public static void main(String[] args)&#123;  &#x2F;*这也是第二种注释方法*&#x2F;        System.out.println(&quot;Hello,world!&quot;); &#x2F;&#x2F;这是第三种注释方法    &#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>第一种：可以用来自动生成文档.<br>第二种：在Java中,不能简单地把代码用&#x2F;*和*&#x2F; 括起来作为注释,因为这段代码本身可能包含一个*&#x2F;界定符.<br>第三种:最常用的注释,从&#x2F;&#x2F;开始到本行结尾都是注释.<br>[^1]: 类名：必须以字母开头的任意字母与数字组合.长度基本没有限制.一个好的类名约定使用驼峰命名法.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;HelloWorld-第一个Java程序&quot;&gt;&lt;a href=&quot;#HelloWorld-第一个Java程序&quot; class=&quot;headerlink&quot; title=&quot;HelloWorld! 第一个Java程序&quot;&gt;&lt;/a&gt;HelloWorld! 第一个Java程序&lt;/h1</summary>
+      
+    
+    
+    
+    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java的基本程序设计结构" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>intro</title>
+    <link href="http://example.com/intro/"/>
+    <id>http://example.com/intro/</id>
+    <published>2022-11-14T11:58:09.000Z</published>
+    <updated>2022-11-14T12:09:50.978Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>本博客仅供作为个人Java的学习笔记,如有不妥之处,望及时联系本人</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;本博客仅供作为个人Java的学习笔记,如有不妥之处,望及时联系本人&lt;/strong&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="intro" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/intro/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>about</title>
