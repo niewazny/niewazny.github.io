@@ -64,4 +64,28 @@
     
   </entry>
   
+  <entry>
+    <title>数据类型</title>
+    <link href="http://example.com/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://example.com/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <published>2022-11-12T17:49:46.000Z</published>
+    <updated>2022-11-15T05:02:48.748Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h2><p>整形用于表示没看有小数部分的数，可以是负数。Java提供了4种整型，如下表所示。</p><table><thead><tr><th align="center">类型</th><th align="center">存储需求</th><th align="center">取值范围</th></tr></thead><tbody><tr><td align="center">int</td><td align="center">4字节</td><td align="center">-2 147 483 648 ~ 2 147 483 647</td></tr><tr><td align="center">short</td><td align="center">2字节</td><td align="center">-32 768 ~ 32 767</td></tr><tr><td align="center">long</td><td align="center">8字节</td><td align="center">-9 223 372 036 854 775 808 ~ 9 223 372 036 854 775 807</td></tr><tr><td align="center">byte</td><td align="center">1字节</td><td align="center">-127 ~ 128</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1 id=&quot;数据类型&quot;&gt;&lt;a href=&quot;#数据类型&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java的基本程序设计结构" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
 </feed>
