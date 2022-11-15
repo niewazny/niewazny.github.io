@@ -205,27 +205,11 @@
 
       
           <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="HelloWorld-第一个Java程序"><a href="#HelloWorld-第一个Java程序" class="headerlink" title="HelloWorld! 第一个Java程序"></a>HelloWorld! 第一个Java程序</h1><p>下面是经典的HelloWorld程序</p>
-<pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">public class HelloWorld&#123;
-    public static void main(String[] args)&#123;
-        System.out.println(&quot;Hello,world!&quot;);
-    &#125;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs Java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span>&#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span>&#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello,world!&quot;</span>);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 <p>下面逐一地查看这段代码:<br><code>public</code>：称为访问修饰符,这些修饰符用于控制程序的其他部分对这段代码的访问级别.<br><code>class</code>：称为类,是一个程序的基本单位,可以看作程序逻辑的一个容器,定义了应用程序的行为.<br><code>HelloWorld</code>:为<code>class</code>后面紧跟着的<em>类名</em><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="类名：必须以字母开头的任意字母与数字组合.长度基本没有限制.一个好的类名约定使用驼峰命名法.
 ">[1]</span></a></sup><br><code>&#123;&#125;</code>:大括号划分了程序的各各部分.Java中任何方法的代码都必须以”{“开始,用”}”结束.<br><code>static void</code>:暂不作说明.<br><code>main()</code>:每个Java程序都必须有一个main方法<br><code>System.out.println()</code>:我们使用<code>System.out</code>对象并调用了它的<code>println</code>方法.注意,点号(.)用于调用方法.Java中使用的通用语法是:<code>object.method(parameters)</code></p>
 <h1 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h1><p>Java中有三种注释如下：</p>
-<pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">&#x2F;**
- * 这是第一种
- * 注释方法
- *&#x2F;
-
-&#x2F;*
-这是第二种注释方法
-*&#x2F;
-public class HelloWorld&#123;
-    public static void main(String[] args)&#123;  &#x2F;*这也是第二种注释方法*&#x2F;
-        System.out.println(&quot;Hello,world!&quot;); &#x2F;&#x2F;这是第三种注释方法
-    &#125;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs Java"><span class="hljs-comment">/**</span><br><span class="hljs-comment"> * 这是第一种</span><br><span class="hljs-comment"> * 注释方法</span><br><span class="hljs-comment"> */</span><br><br><span class="hljs-comment">/*</span><br><span class="hljs-comment">这是第二种注释方法</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span>&#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span>&#123;  <span class="hljs-comment">/*这也是第二种注释方法*/</span><br>        System.out.println(<span class="hljs-string">&quot;Hello,world!&quot;</span>); <span class="hljs-comment">//这是第三种注释方法</span><br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 <p>第一种：可以用来自动生成文档.<br>第二种：在Java中,不能简单地把代码用&#x2F;*和*&#x2F; 括起来作为注释,因为这段代码本身可能包含一个*&#x2F;界定符.<br>第三种:最常用的注释,从&#x2F;&#x2F;开始到本行结尾都是注释.</p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">类名：必须以字母开头的任意字母与数字组合.长度基本没有限制.一个好的类名约定使用驼峰命名法.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>
       
