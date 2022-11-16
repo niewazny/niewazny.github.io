@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-11-15T08:37:47.027Z</updated>
+  <updated>2022-11-15T14:38:48.425Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,9 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>数据类型</title>
+    <link href="http://example.com/3.3%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://example.com/3.3%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <published>2022-11-15T14:18:39.000Z</published>
+    <updated>2022-11-15T14:38:48.425Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h2><p>整形用于表示没看有小数部分的数，可以是负数。Java提供了4种整型，如下表所示。</p><table><thead><tr><th align="center">类型</th><th align="center">存储需求</th><th align="center">取值范围</th></tr></thead><tbody><tr><td align="center">int</td><td align="center">4字节</td><td align="center">-2 147 483 648 ~ 2 147 483 647</td></tr><tr><td align="center">short</td><td align="center">2字节</td><td align="center">-32 768 ~ 32 767</td></tr><tr><td align="center">long</td><td align="center">8字节</td><td align="center">-9 223 372 036 854 775 808 ~ 9 223 372 036 854 775 807</td></tr><tr><td align="center">byte</td><td align="center">1字节</td><td align="center">-127 ~ 128</td></tr></tbody></table><p>通常情况下,int类型最常用.byte和short类型主要用于特定的应用场合,例如,底层的文件处理或存储空间有限时的大数组.</p><h2 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h2><p>浮点类型用于表示</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1 id=&quot;数据类型&quot;&gt;&lt;a href=&quot;#数据类型&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Java的基本程序设计结构" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>一个简单的Java程序、注释</title>
-    <link href="http://example.com/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Java%E7%A8%8B%E5%BA%8F%E3%80%81%E6%B3%A8%E9%87%8A/"/>
-    <id>http://example.com/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Java%E7%A8%8B%E5%BA%8F%E3%80%81%E6%B3%A8%E9%87%8A/</id>
+    <link href="http://example.com/3.1&amp;3.2%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Java%E7%A8%8B%E5%BA%8F,%E6%B3%A8%E9%87%8A/"/>
+    <id>http://example.com/3.1&amp;3.2%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Java%E7%A8%8B%E5%BA%8F,%E6%B3%A8%E9%87%8A/</id>
     <published>2022-11-14T12:02:08.000Z</published>
     <updated>2022-11-15T08:37:47.027Z</updated>
     
@@ -60,30 +84,6 @@
     <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
     
     <category term="intro" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/intro/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>数据类型</title>
-    <link href="http://example.com/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
-    <id>http://example.com/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
-    <published>2022-11-13T17:49:46.000Z</published>
-    <updated>2022-11-15T08:48:05.138Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h2><p>整形用于表示没看有小数部分的数，可以是负数。Java提供了4种整型，如下表所示。</p><table><thead><tr><th align="center">类型</th><th align="center">存储需求</th><th align="center">取值范围</th></tr></thead><tbody><tr><td align="center">int</td><td align="center">4字节</td><td align="center">-2 147 483 648 ~ 2 147 483 647</td></tr><tr><td align="center">short</td><td align="center">2字节</td><td align="center">-32 768 ~ 32 767</td></tr><tr><td align="center">long</td><td align="center">8字节</td><td align="center">-9 223 372 036 854 775 808 ~ 9 223 372 036 854 775 807</td></tr><tr><td align="center">byte</td><td align="center">1字节</td><td align="center">-127 ~ 128</td></tr></tbody></table><p>通常情况下,int类型最常用.byte和short类型主要用于特定的应用场合,例如,底层的文件处理或存储空间有限时的大数组.<br>##浮点类型<br>浮点类型用于表示</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1 id=&quot;数据类型&quot;&gt;&lt;a href=&quot;#数据类型&quot; class=&quot;head</summary>
-      
-    
-    
-    
-    <category term="Java笔记" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Java的基本程序设计结构" scheme="http://example.com/categories/Java%E7%AC%94%E8%AE%B0/Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84/"/>
     
     
   </entry>
