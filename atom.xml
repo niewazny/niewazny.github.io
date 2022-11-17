@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-11-16T06:55:06.383Z</updated>
+  <updated>2022-11-17T03:06:05.013Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/3.3%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
     <id>http://example.com/3.3%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
     <published>2022-11-15T14:18:39.000Z</published>
-    <updated>2022-11-16T06:55:06.383Z</updated>
+    <updated>2022-11-17T03:06:05.013Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h1><p>整形用于表示没看有小数部分的数，可以是负数。Java提供了4种整型，如下表所示:<br>| 类型  | 存储需求 | 取值范围                                               |<br>| :—-: | :———: | :——————————————————————————- |<br>|  int  |  4字节   | -2 147 483 648 ~ 2 147 483 647                         |<br>| short |  2字节   | -32 768 ~ 32 767                                       |<br>| long  |  8字节   | -9 223 372 036 854 775 808 ~ 9 223 372 036 854 775 807 |<br>| byte  |  1字节   | -127 ~ 128                                             |</p><p>通常情况下,int类型最常用.byte和short类型主要用于特定的应用场合,例如,底层的文件处理或存储空间有限时的大数组.</p><h1 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h1><p>浮点类型用于表示有小数部分的数值.在Java中有两种浮点类型,如下表格所示:</p><div class="table-container"><table><thead><tr><th style="text-align:center">类型</th><th style="text-align:center">存储需求</th><th style="text-align:center">取值范围</th></tr></thead><tbody><tr><td style="text-align:center">float</td><td style="text-align:center">4字节</td><td style="text-align:center">大约 ±3.402 823 47 × $10^{38}$</td></tr><tr><td style="text-align:center"></td><td style="text-align:center"></td></tr></tbody></table></div><p>$10^{38}$</p><p>$2^{33}$ </p><p>$10^{20}$</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h1><p>整形用于表示没看有小数部分的数，可以是负数。Java提供了4种整型，如下表所示:</p><div class="table-container"><table><thead><tr><th>类型</th><th>存储需求</th><th>取值范围</th></tr></thead><tbody><tr><td>int</td><td>4字节</td><td>-2 147 483 648 ~ 2 147 483 647</td></tr><tr><td>short</td><td>2字节</td><td>-32 768 ~ 32 767</td></tr><tr><td>long</td><td>8字节</td><td>-9 223 372 036 854 775 808 ~ 9 223 372 036 854 775 807</td></tr><tr><td>byte</td><td>1字节</td><td>-127 ~ 128</td></tr></tbody></table></div><p>通常情况下,int类型最常用.byte和short类型主要用于特定的应用场合,例如,底层的文件处理或存储空间有限时的大数组.</p><h1 id="浮点类型"><a href="#浮点类型" class="headerlink" title="浮点类型"></a>浮点类型</h1><p>浮点类型用于表示有小数部分的数值.在Java中有两种浮点类型,如下表格所示:</p><div class="table-container"><table><thead><tr><th style="text-align:center">类型</th><th style="text-align:center">存储需求</th><th style="text-align:center">取值范围</th></tr></thead><tbody><tr><td style="text-align:center">float</td><td style="text-align:center">4字节</td><td style="text-align:center">大约 ±3.402 823 47 × $10^{38}$</td></tr><tr><td style="text-align:center"></td><td style="text-align:center"></td></tr></tbody></table></div><p>$10^{38}$</p><p>$2^{33}$ </p><p>$10^{20}$</p>]]></content>
     
     
       
